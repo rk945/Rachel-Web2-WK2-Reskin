@@ -48,6 +48,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/ Photos\/hero-3-desktop copy.jpg" : {
+      "ft" : 16384,
+      "iS" : 147521,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/ Photos\/hero-3-desktop copy.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/ Photos\/hero-3-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 143529,
@@ -382,6 +395,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero-2-mobile.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero-3-desktop copy.jpg" : {
+      "ft" : 16384,
+      "iS" : 147521,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero-3-desktop copy.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -854,7 +880,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_stock.scss" : {
+    "\/dev\/scss\/sections\/_hero-img.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -863,7 +889,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_stock.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero-img.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_new-in-stock.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_new-in-stock.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -924,7 +965,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-tar",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 672008010.46933103
+    "lastBuiltDate" : 673476737.40741503
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1218,14 +1259,14 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,

@@ -1,10 +1,19 @@
 /* =============
     Base
 ============= */
+
+body {
+    background-color: $snow-grey-light;
+}
+
 .container {
     display:grid;
-    grid-template-columns: 15px auto 15px;
-    justify-content: center;
-    padding: 16px;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ".content."
+    ;
+    .content{
+        grid-area:content;
+    }
 }
 

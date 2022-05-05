@@ -352,6 +352,19 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: #e0dfd533;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ".content.";
+}
+.container .content {
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
@@ -383,13 +396,59 @@ textarea {
     Header
 ============= */
 header {
+  background-color: #e0dfd5;
+}
+header .content {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #e0dfd5;
+}
+
+/* =============
+    second hero images
+============= */
+.hero-2-3 img {
+  width: 100;
+}
+
+/* =============
+    hero image
+============= */
+.hero-img img {
+  width: 100%;
+}
+
+/* =============
+    new  in stock
+============= */
+.new-in-stock .ginger-flower {
+  background-color: #d0dce4;
+}
+.new-in-stock .gardenia {
+  background-color: #d0dce4;
+}
+.new-in-stock .ocean-mist {
+  background-color: #d0dce4;
+}
+.new-in-stock .lemon-drop {
+  background-color: #d0dce4;
+}
+.new-in-stock .patchouli {
+  background-color: #d0dce4;
+}
+.new-in-stock .container {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ".content.";
+}
+.new-in-stock .container .content {
+  grid-area: content;
+}
