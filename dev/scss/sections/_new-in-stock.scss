@@ -3,21 +3,27 @@
 ============= */
 
 .new-in-stock{
+    
     .ginger-flower{
         background-color: $azure-blue;
     }
+
     .gardenia{
         background-color: $azure-blue;
     }
+
     .ocean-mist{
         background-color: $azure-blue;
     }
+
     .lemon-drop{
         background-color: $azure-blue;
     }
+
     .patchouli{
         background-color: $azure-blue;
     }
+
     .container{
         display:grid;
         grid-template-columns: 16px auto 16px;
@@ -28,6 +34,7 @@
             grid-area:content;
         } 
 }
+
 }
 
 

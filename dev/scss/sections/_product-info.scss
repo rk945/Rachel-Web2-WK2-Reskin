@@ -1,0 +1,19 @@
+/* =============
+    product info
+============= */
+
+
+.product-info{
+
+    .content{
+        display: grid;
+        grid-template-columns: 100%;
+    
+
+    @include md{
+        grid-template-columns: 50% 50%;
+
+    }
+}
+}
+

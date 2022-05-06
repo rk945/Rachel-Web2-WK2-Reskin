@@ -368,6 +368,10 @@ body {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -451,4 +455,70 @@ footer {
 }
 .new-in-stock .container .content {
   grid-area: content;
+}
+
+/* =============
+    large desktop image
+============= */
+.third-img {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .third-img {
+    display: block;
+  }
+}
+
+/* =============
+    candles
+============= */
+.candles {
+  background-color: #beadb8;
+}
+
+/* =============
+    store info
+============= */
+.store-info {
+  background-color: #dfb9bd;
+}
+
+/* =============
+    top hero
+============= */
+.top-hero .content {
+  display: grid;
+  grid-template-columns: 100%;
+}
+@media (min-width: 768px) {
+  .top-hero .content {
+    grid-template-columns: 50% auto;
+  }
+}
+
+/* =============
+    samples
+============= */
+.samples {
+  background-color: #b0b8bf;
+}
+
+/* =============
+    services
+============= */
+.services {
+  background-color: #b0b8bf;
+}
+
+/* =============
+    product info
+============= */
+.product-info .content {
+  display: grid;
+  grid-template-columns: 100%;
+}
+@media (min-width: 768px) {
+  .product-info .content {
+    grid-template-columns: 50% 50%;
+  }
 }

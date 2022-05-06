@@ -1,0 +1,11 @@
+/* =============
+    large desktop image
+============= */
+.third-img{
+    display: none;
+
+    @include xl{
+        display: block;
+    }
+}
+
