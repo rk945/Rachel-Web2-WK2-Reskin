@@ -1,3 +1,76 @@
 /* =============
     Buttons
 ============= */
+
+.button-search{
+    width: 43px;
+    height: 34px;
+    border: none;
+    display: inline-block;
+    align-items: center;
+}
+
+.button-start{
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $white;
+    background-color: $rose-gold;
+    width: 92px;
+    height: 27px;
+    border: none;
+    text-decoration: none;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.button-order{
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $white;
+    background-color: $rose-gold;
+    width: 92px;
+    height: 27px;
+    border: none;
+    text-decoration: none;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.button-shop{
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $white;
+    background-color: $rose-gold;
+    width: 92px;
+    height: 27px;
+    border: none;
+    text-decoration: none;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.button-signup{
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $white;
+    background-color: $rose-gold;
+    width: 76px;
+    height: 27px;
+    border: none;
+    text-decoration: none;
+    line-height: 16px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+

@@ -4,3 +4,195 @@
 body{
     font-family: 'Work Sans', sans-serif; 
 }
+
+a {
+
+    display: none;
+
+    @include lg{
+        display: block;
+        text-decoration: none;
+        color: $white;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.11px;
+
+    }
+
+    @include xl{
+        display: block;
+        text-decoration: none;
+        color: $white;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.11px;
+
+    }
+}
+
+
+.h3-wick{
+     color: $white;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 20px;
+}
+
+.h4-wax{
+    color: $white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.h4-info{
+    color: $white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.77px;  
+}
+
+
+.p-info{
+    color: $white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.77px;  
+}
+
+.h4-info-2{
+    color: $white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;  
+}
+
+
+.h2-samples{
+    color: $white;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px; 
+    
+    @include md{
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    @include lg{
+        font-size: 31px;
+        line-height: 30px;
+    }
+}
+
+
+.h2-services{
+    color: $white;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    
+    @include md{
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    @include lg{
+        font-size: 31px;
+        line-height: 30px;
+    }
+}
+
+.h1-new{
+    color: $gunmental;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.46px;
+
+    @include md{
+        font-size: 28px;
+        line-height: 32.84px;
+    }
+
+    @include lg{
+        font-weight: 300;
+        font-size: 37px;
+        line-height: 43.4px;
+    }
+}
+
+.h2-candle{
+    color: $gunmental;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 30px;
+}
+
+.description{
+    color: $gunmental;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.locations{
+    color: $gunmental;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.46px;
+}
+
+.state{
+    color: $gunmental;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.77px;  
+}
+
+.address{
+    color: $gunmental;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.08px;
+}
+
+.number{
+    color: $gunmental;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.08px;
+}
+
+.divide{
+    color: $cornsilk;
+}
+
+.h3-member{
+    color: $gunmental;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.46px;
+}
+
+
+.h3-follow{
+    color: $gunmental;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.46px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

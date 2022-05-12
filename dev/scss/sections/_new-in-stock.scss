@@ -6,33 +6,62 @@
     
     .ginger-flower{
         background-color: $azure-blue;
+        grid-area: c1;
+       
     }
 
     .gardenia{
         background-color: $azure-blue;
+        grid-area: c2;
     }
 
     .ocean-mist{
         background-color: $azure-blue;
+        grid-area: c3;
     }
 
     .lemon-drop{
         background-color: $azure-blue;
+        grid-area: c4;
     }
 
     .patchouli{
         background-color: $azure-blue;
+        grid-area: c5;
     }
 
-    .container{
-        display:grid;
-        grid-template-columns: 16px auto 16px;
+
+    @include xl{
+    grid-template-columns: auto 1140 auto;
+}
+
+   .new-candles{
+
+
+    @include sm{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    gap: 15px;
+    }
+    
+    @include md{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-area: new-candles;
+
         grid-template-areas: 
-        ".content."
-        ;
-        .content{
-            grid-area:content;
-        } 
+        "c1 c1 c2 c2"
+        "c3 c3 c4 c4"
+        ". c5 c5 .";
+    }
+
+    @include lg{
+        grid-template-columns: repeat(6,1fr);
+        grid-template-areas: 
+        "c1 c1 c2 c2 c3 c3"
+        ". c4 c4 c5 c5 .";
+    }
+    
 }
 
 }
